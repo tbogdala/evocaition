@@ -1,0 +1,16 @@
+[package]
+name = "evocaition"
+version = "0.1.0"
+edition = "2021"
+description = "A command-line application to generate text with AI through cloud APIs."
+keywords = ["llm", "generative", "ai", "openrouter", "cli"]
+authors = ["Timothy Bogdala <tdb@animal-machine.com>"]
+
+[dependencies]
+anyhow = "1.0.94"
+base64 = "0.22.1"
+clap = { version = "4.5.23", features = ["derive"] }
+reqwest = { version = "0.12.9", features = ["stream", "json"] }
+serde = { version = "1.0.216", features = ["derive"] }
+serde_json = "1.0.133"
+tokio = { version = "1.42.0", features = ["full"] }
