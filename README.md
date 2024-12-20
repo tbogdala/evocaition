@@ -4,7 +4,7 @@
 
 evocaition is a command-line tool designed to interact with AI large language models (LLMs) via APIs. It provides a straightforward interface to send prompts and receive completions from various AI models, making it easy for users to engage with AI technologies directly from the terminal.
 
-It is designed to be a tool that plays well with other command-line tools. It can ingest the prompt from *<stdin>* and then write it's generated output to *<stdout>*. This also means that it's stateless and does not do multi-turn conversations. One prompt in ... one response out.
+It is designed to be a tool that plays well with other command-line tools. It can ingest the prompt from *stdin* and then write it's generated output to *stdout*. This also means that it's stateless and does not do multi-turn conversations. One prompt in ... one response out.
 
 ## Features
 
@@ -72,7 +72,7 @@ evocaition --prompt "Make a bold prediction for the year 2028." \
 ### Streaming Responses
 
 If you wish to see the output as it is received, enable streaming with the
-`-s` parameter and the result will be written to *<stdout>* as it arrives.
+`-s` parameter and the result will be written to *stdout* as it arrives.
 
 ```sh
 evocaition --prompt "Make a bold prediction for the year 2028." -n 512 -s
