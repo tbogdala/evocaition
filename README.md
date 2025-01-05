@@ -13,6 +13,7 @@ It is designed to be a tool that plays well with other command-line tools. It ca
 - **Model Customization:** Allows selection of different models and customization of generation parameters such as maximum tokens, temperature, top-p, etc.
 - **Streaming Output:** Option to stream the response as it is being generated, useful for real-time interactions.
 - **Image Support:** Ability to attach images to user requests, enhancing the interactivity for models that support multi-modal inputs.
+- **VS Code Support:** Once installed locally, the [Evocaition VS Code Extension](https://marketplace.visualstudio.com/items?itemName=tbogdala.evocaition-vscext) can be installed to generate text within the editor buffers.
 
 ## Usage
 
